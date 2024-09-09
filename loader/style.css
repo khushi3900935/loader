@@ -1,0 +1,16 @@
+.Loader {
+  height: 120px;
+  width: 120px;
+  border: 16px solid seagreen;
+  border-radius: 50%;
+  border-top: 10px black;
+  animation: spin 2s infinite;
+}
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
